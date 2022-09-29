@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href=./css/style.css>
+    <title>SumArte</title>
+    <link rel="short cut icon" href="./img/ArteCBA.jpg" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <header class="header">
+      <nav>
+        <ul class="nav justify-content-end">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="index.html"
+              >Inicio</a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="tuarte.html">SumArte</a>
+          </li>
+          <li class="nav-item">
+            <a
+              class="nav-link"
+              href="https://www.instagram.com/artecordoba/?hl=es"
+              >Instagram</a
+            >
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <form class="form" action="">
+      <label for="artmane">Nombre Artistico</label>
+      <input type="text" name="artname" />
+      <br />
+      <label for="name">Nombre y apellido </label>
+      <input type="text" name="name" />
+      <br />
+      <label for="email">Mail</label>
+      <input type="email" name="email" />
+      <br />
+      <label for="sexo">Hombre</label>
+      <input type="radio" name="sexo" value="varon" />
+      <label for="sexo">Mujer</label>
+      <input type="radio" name="sexo" value="mujer" />
+      <label for="sexo">Otro</label>
+      <input type="radio" name="sexo" value="otro" />
+      <br />
+      <textarea
+        name="message"
+        cols="30"
+        rows="5"
+        placeholder="¿Que es el arte para vos?"
+      ></textarea>
+      <br />
+      <input type="submit" />
+    </form>
+    <footer class="main-footer">
+      <img class="footer" src="/img/ArteCBA.jpg" alt="logo arte cordoba" />
+      <a href="https://www.instagram.com/artecordoba/?hl=es"
+        ><img class="footer" src="/img/Logoig.jpg" alt="logo Instagram"
+      /></a>
+      <h4>ArteCBA@gmail.com</h4>
+    </footer>
+    <!-- JavaScript Bundle with Popper -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
